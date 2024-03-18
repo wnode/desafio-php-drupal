@@ -20,23 +20,13 @@ Desenvolva um site simples em Drupal que funcione como um blog.
 
 ### 1. Tema Personalizado
 - Criar um tema personalizado para o site.
-- O tema deve ser responsivo e seguir as práticas modernas de design web.
 
 ### 2. Tipo de Conteúdo Personalizado
 - Criar um tipo de conteúdo personalizado para postagens do blog.
-- Cada postagem deve incluir título, corpo, imagem destacada e data de publicação.
-
-### 3. Listagem e Filtragem
-- Implementar uma página que liste todas as postagens do blog.
-- Adicionar funcionalidades para filtrar postagens por data e categorias.
+- Cada postagem deve incluir título, corpo e data de publicação.
 
 ### 4. Módulo Customizado
 - Desenvolver um módulo customizado que adicione uma funcionalidade específica ao site (por exemplo, um bloco de autor com informações em cada postagem, ou um sistema de comentários).
-
-### 5. Segurança e Desempenho
-
-- Garantir que o site esteja seguro contra vulnerabilidades comuns na web.
-- Otimizar o site para um carregamento rápido.
   
 ## 🗳️ Instruções de Submissão:
 
@@ -47,9 +37,6 @@ Desenvolva um site simples em Drupal que funcione como um blog.
 ## 🧪 Avaliação:
 
 - Qualidade do código e aderência às boas práticas e padrões de Drupal.
-- Funcionalidade e estética do tema personalizado.
 - Eficiência e clareza do módulo customizado.
-- Segurança e desempenho do site.
-- Documentação clara do código e das funcionalidades implementadas.
 
 Boa sorte com o desafio! Estamos ansiosos para ver sua solução.
