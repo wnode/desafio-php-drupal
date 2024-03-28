@@ -1,0 +1,50 @@
+# Arquivos e diretórios padrão a serem ignorados pelo Git
+
+# Arquivos temporários criados pelo Drupal
+/sites/*/files
+/sites/*/settings*.php
+
+# Arquivos de configuração locais
+/sites/*/settings*.local.php
+
+# Diretório de arquivos de configuração do Drupal 8
+/sites/default/files/config_*
+
+# Arquivos de log
+/*.log
+/logs/
+*.txt
+
+# Diretório de cache
+/cache/
+/sites/*/files/php/
+
+# Diretório de arquivos temporários
+/temp/
+
+# Arquivos de cache do Composer
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Arquivos de configuração local do IDE
+.idea/
+
+# Arquivos de configuração do sistema
+*.iml
+*.phpstorm.meta.php
+
+# Arquivos de backup
+*.bak
+*.swp
+*~
+.#*
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de configuração do Docker
+docker-compose.override.yml

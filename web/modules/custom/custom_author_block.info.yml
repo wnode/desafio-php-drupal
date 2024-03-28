@@ -1,0 +1,7 @@
+name: 'Bloco de Autor Customizado'
+type: module
+description: 'Adiciona um bloco de autor com informações em cada postagem.'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Custom'
+dependencies:
+  - drupal:block

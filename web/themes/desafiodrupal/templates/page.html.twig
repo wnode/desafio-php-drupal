@@ -1,0 +1,33 @@
+{# Arquivo: templates/page.html.twig #}
+
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+<head>
+  <head-placeholder token="{{ placeholder_token }}">
+  <title>{{ head_title|safe_join(' | ') }}</title>
+  <css-placeholder token="{{ placeholder_token }}">
+  <js-placeholder token="{{ placeholder_token }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body{{ attributes }}>
+  <header id="header" role="banner">
+    {{ page.header }}
+  </header>
+
+  <div id="main-wrapper">
+    <main role="main">
+      {{ page.content }}
+    </main>
+
+    <aside>
+      {{ page.sidebar_first }}
+    </aside>
+  </div>
+
+  <footer id="footer" role="contentinfo">
+    {{ page.footer }}
+  </footer>
+
+  <js-bottom-placeholder token="{{ placeholder_token }}">
+</body>
+</html>

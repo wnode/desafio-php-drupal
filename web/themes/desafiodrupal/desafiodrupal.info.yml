@@ -1,0 +1,14 @@
+name: 'DesafioDrupal'
+type: theme
+description: 'Um tema Drupal limpo e responsivo para blogs.'
+core_version_requirement: ^8 || ^9 || ^10
+base theme: claro
+
+libraries:
+  - desafiodrupal/global-styling
+
+regions:
+  header: 'Cabeçalho'
+  content: 'Conteúdo'
+  sidebar_first: 'Barra Lateral'
+  footer: 'Rodapé'

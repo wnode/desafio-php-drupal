@@ -1,0 +1,9 @@
+{# Arquivo: templates/custom-author-block.html.twig #}
+
+<div class="custom-author-block">
+  <h2>{{ author_info.name }}</h2>
+  {% if author_info.image %}
+    <img src="{{ author_info.image }}" alt="{{ author_info.name }}">
+  {% endif %}
+  <p>{{ author_info.bio }}</p>
+</div>
